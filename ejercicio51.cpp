@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>//primera version, no esta terminada aun
 #include <cstring>
 
 int main() {
