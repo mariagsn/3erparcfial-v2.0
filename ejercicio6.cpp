@@ -32,7 +32,7 @@ int main() {
             cout << "No es ninguna figura\n";
             break;
         default:
-            out << "Este no es un numero de una baraja española\n";
+            cout << "Este no es un numero de una baraja española\n";
     }
 
     return 0;
