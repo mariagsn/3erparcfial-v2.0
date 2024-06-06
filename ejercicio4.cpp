@@ -1,10 +1,11 @@
 #include <iostream>
+using namespace std;
 
 int main() {
     char car;
 
-    std::cout << "Ingrese un caracter: ";
-    std::cin >> car;
+    cout << "Ingrese un caracter: ";
+    cin >> car;
 
     switch (car) {
         case 'a':
@@ -17,10 +18,10 @@ int main() {
         case 'I':
         case 'O':
         case 'U':
-            std::cout << "El caracter ingresado es una vocal.\n";
+            cout << "El caracter ingresado es una vocal.\n";
             break;
         default:
-            std::cout << "El caracter ingresado no es una vocal.\n";
+            cout << "El caracter ingresado no es una vocal.\n";
             break;
     }
 

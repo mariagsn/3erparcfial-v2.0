@@ -1,27 +1,29 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
     int horas, salario, extra, total;
 
-    std::cout << "Ingresa la cantidad de horas trabajadas por semana: ";
-    std::cin >> horas;
+    cout << "Ingresa la cantidad de horas trabajadas por semana: ";
+    cin >> horas;
 
-    std::cout << "Ingresa la cantidad de su salario por hora: ";
-    std::cin >> salario;
+    cout << "Ingresa la cantidad de su salario por hora: ";
+    cin >> salario;
 
     if (horas <= 40) {
         total = salario * horas;
-        std::cout << "El pago total es de " << total << std::endl;
+        cout << "El pago total es de " << total << '\n';
     } 
     else if (horas <= 50) {
         extra = salario * 1.5;
         total = (40 * salario) + ((horas - 40) * extra);
-        std::cout << "El pago total es de " << total << std::endl;
+        cout << "El pago total es de " << total << '\n';
     } 
     else {
         extra = salario * 2;
         total = (40 * salario) + (10 * salario * 1.5) + ((horas - 50) * extra);
-        std::cout << "El pago total es de " << total << std::endl;
+        cout << "El pago total es de " << total << '\n';
     }
 
     return 0;

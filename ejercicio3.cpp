@@ -23,7 +23,7 @@ int main() {
         num2 = temp;
     }
 
-    cout << "Los numeros ordenados de menor a mayor son: " << num1 << " " << num2 << " " << num3 << endl;
+    cout << "Los numeros ordenados de menor a mayor son: " << num1 << " " << num2 << " " << num3 << '\n';
 
     return 0;
 }
