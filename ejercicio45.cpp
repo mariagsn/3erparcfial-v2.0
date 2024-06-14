@@ -11,7 +11,6 @@ int main() {
 
     arreglo1[0] = "Fernando";
     arreglo1[1] = "Oscar";
-    arreglo1[2] = "Ana";
 
     arreglo2[0] = 74;
     arreglo2[1] = 56;
